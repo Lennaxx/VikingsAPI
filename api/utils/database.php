@@ -6,7 +6,7 @@ function getDatabaseConnection(): PDO {
         $host = 'localhost';
         $db = 'vikings';
         $user = 'root';
-        $pass = 'root';
+        $pass = '';
         $port = '8889';
         return new PDO("mysql:host=$host;dbname=$db;port=$port", $user, $pass);
     } catch (PDOException $e) {

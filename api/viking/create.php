@@ -1,7 +1,8 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/dao/viking.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/utils/server.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/viking/service.php';
+require_once dirname(__FILE__, 3) . '/config.php';
+require_once BASE_PATH . '/api/dao/viking.php';
+require_once BASE_PATH . '/api/utils/server.php';
+require_once BASE_PATH . '/api/viking/service.php';
 
 header('Content-Type: application/json');
 

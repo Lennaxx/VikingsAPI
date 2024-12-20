@@ -1,5 +1,6 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/api/utils/database.php';
+require_once __DIR__ . '/config.php';
+require_once BASE_PATH . '/api/utils/database.php';
 
 try {
     $db = getDatabaseConnection();
